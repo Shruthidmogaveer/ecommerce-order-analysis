@@ -20,27 +20,43 @@ o	Analyze customer feedback and review scores.
 o	Identify factors that influence customer satisfaction and retention.
 
 **3.	Product Performance:**
+
 o	Evaluate the performance of different products.
+
 o	Identify best-selling and underperforming products.
+
 o	Analyze the impact of product attributes on sales.
 
 **4.	Operational Metrics:**
+
 o	Assess logistics and delivery performance.
+
 o	Examine the order fulfillment process.
+
 o	Identify bottlenecks and areas for operational improvement.
 
 **Dataset Description**
+
 The dataset consists of several tables, each containing different aspects of the e-commerce transactions:
+
 •	**Orders**: Information about each order, including order status, purchase date, and customer ID.
+
 •	**Order Items**: Details of items within each order, including product ID, price, and quantity.
+
 •	**Customers**: Demographic information about customers.
+
 •	**Products**: Information about the products, including category, name, and dimensions.
+
 •	**Sellers**: Details about the sellers, including location and performance metrics.
+
 •	**Order Payments**: Information about the payment methods and amounts.
+
 •	**Order Reviews**: Customer reviews and ratings for each order.
+
 •	**Geolocation**: Geographical coordinates related to customer and seller locations.
 
 **Analysis Steps**
+
 1.	**Data Cleaning and Preprocessing:**
 o	Handle missing values and data inconsistencies.
 o	Convert data types for efficient processing.
