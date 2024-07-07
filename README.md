@@ -1,96 +1,107 @@
-The dataset offers a comprehensive look at the sales and customer interactions, allowing for various analyses 
-that can provide insights into the performance and trends within the e-commerce ecosystem.
+This document provides an overview of the E-Commerce Olist Store Analysis. The analysis focuses on various key performance indicators (KPIs) to understand the sales patterns, customer behavior, and operational efficiency of the Olist e-commerce platform. 
 
-**Objectives**
+**Introduction**
 
-**1.	Understand Sales Trends:**
+Olist is a Brazilian e-commerce company that operates as a department store platform, managing the sales process between shopkeepers and clients. 
+It provides client satisfaction reports, market presence, and transparent reputation metrics. 
+Olist sells products directly to customers through its logistics network.
 
-o	Analyze the sales data to identify trends over time.
+**Data Description**
 
-o	Determine peak sales periods.
+The dataset contains nearly 100,000 orders from the Brazilian market between 2016 and 2018. 
+It includes multiple dimensions such as order status, payment price, product attributes, freight performance, customer location, and review scores.
 
-o	Examine the distribution of sales across different product categories.
+**The dataset is divided into nine interconnected tables:**
 
-**2.	Customer Behavior Analysis:**
+Olist_Customers_Dataset
 
-o	Investigate customer purchasing patterns.
+Olist_Geolocation_Dataset
 
-o	Analyze customer feedback and review scores.
+Olist_Order_Item_Dataset
 
-o	Identify factors that influence customer satisfaction and retention.
+Olist_Order_Payment_Dataset
 
-**3.	Product Performance:**
+Olist_Order_Review_Dataset
 
-o	Evaluate the performance of different products.
+Olist_Order_Dataset
 
-o	Identify best-selling and underperforming products.
+Olist_Product_Dataset
 
-o	Analyze the impact of product attributes on sales.
+Olist_Seller_Dataset
 
-**4.	Operational Metrics:**
+Olist_Product_Category_Name_Dataset
 
-o	Assess logistics and delivery performance.
+**Key Performance Indicators (KPIs)**
 
-o	Examine the order fulfillment process.
+KPI 1: Weekday vs. Weekend - Total Payment Value
+Total Payments: 13.59M
+Weekday Payments: 3.09M (23%)
+Weekend Payments: 10.5M (77%)
+Recommendations: Provide offers and discounts on weekdays to balance payment values across the week.
 
-o	Identify bottlenecks and areas for operational improvement.
+KPI 2: Top 5 Cities by Customer
+Total Customers: 99.44K
+Top City: Sao Paulo
+Recommendations: Focus on improving purchases and delivery processes in Sao Paulo.
 
-**Dataset Description**
+KPI 3: Top 10 Product Categories by Sales
+Top Category: Health and Beauty
+Recommendations: Offer discounts and maintain product quality in top-selling categories.
 
-The dataset consists of several tables, each containing different aspects of the e-commerce transactions:
+KPI 4: Total Orders by Order Status
+Delivered: 96,478
+Shipped: 1,107
+Cancelled: 625
+Unavailable: 609
+Invoiced: 314
+Processing: 301
+Created: 5
+Approved: 2
+Recommendations: Focus on improving delivery processes to ensure all orders are successfully delivered.
 
-•	**Orders**: Information about each order, including order status, purchase date, and customer ID.
+KPI 5: Average Review Score
+Average Review Score: 4.09
+Recommendations: Improve shipping times and maintain high product quality to enhance customer satisfaction.
 
-•	**Order Items**: Details of items within each order, including product ID, price, and quantity.
+**Analytical Tools and Dashboards**
 
-•	**Customers**: Demographic information about customers.
+**Excel Dashboard**
 
-•	**Products**: Information about the products, including category, name, and dimensions.
+An Excel-based dashboard visualizing key metrics and trends.
 
-•	**Sellers**: Details about the sellers, including location and performance metrics.
+**Power BI Dashboard**
 
-•	**Order Payments**: Information about the payment methods and amounts.
+A Power BI dashboard offering interactive data visualizations and insights.
 
-•	**Order Reviews**: Customer reviews and ratings for each order.
+**Tableau Dashboard**
 
-•	**Geolocation**: Geographical coordinates related to customer and seller locations.
+A Tableau dashboard providing advanced data visualization for in-depth analysis.
 
-**Analysis Steps**
+**SQL**
 
-1.	**Data Cleaning and Preprocessing:**
-o	Handle missing values and data inconsistencies.
-o	Convert data types for efficient processing.
-o	Merge tables to create a comprehensive dataset for analysis.
+SQL queries were used to extract and analyze data from the dataset.
 
-2.	**Exploratory Data Analysis (EDA):**
-o	Generate summary statistics for numerical and categorical variables.
-o	Visualize data distributions and relationships using charts and graphs.
-o	Identify patterns and anomalies in the data.
+**Challenges Faced**
 
-3.	**Sales and Revenue Analysis:**
-o	Calculate total sales, average order value, and revenue over time.
-o	Analyze sales distribution across different categories and regions.
-o	Identify trends and seasonality in sales data.
+**Null Values**
 
-4.	**Customer Analysis:**
-o	Segment customers based on purchasing behavior.
-o	Analyze customer lifetime value (CLV).
-o	Examine factors influencing customer satisfaction and repeat purchases.
+Null values were found in the order and review datasets. These were replaced with appropriate numerical values or strings.
 
-5.	**Product and Seller Performance:**
-o	Evaluate product performance based on sales volume and revenue.
-o	Analyze seller performance and identify top-performing sellers.
-o	Investigate the impact of product attributes on sales.
+**Duplicate Values**
 
-6.	**Operational Efficiency:**
-o	Assess delivery times and logistics performance.
-o	Identify bottlenecks in the order fulfillment process.
-o	Recommend strategies for improving operational efficiency.
+Duplicate entries in the geolocation dataset were removed using the "Remove duplicates" option in Power Query.
+
+**Building Relationships**
+
+To solve KPIs, data from multiple tables were merged using common columns, with the "Order items" table acting as a support table.
 
 **Conclusion**
-The Olist store analysis provides valuable insights into various aspects of the e-commerce business, including sales trends, customer behavior, 
-product performance, and operational efficiency. By leveraging this analysis, businesses can make data-driven decisions to enhance their performance,
-improve customer satisfaction, and optimize operations.
+
+By addressing business KPIs, the analysis provides insights into regional spending, delivery processes, and customer satisfaction. 
+This knowledge helps guide Olist in optimizing growth opportunities within their e-commerce platform. 
+The project enhanced the team's expertise in e-commerce metrics, Power BI DAX, and data modeling. Data cleaning and statistical methods were applied to solve the KPIs effectively.
+
+
 
 
 
