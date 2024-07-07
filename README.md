@@ -4,13 +4,19 @@ that can provide insights into the performance and trends within the e-commerce 
 **Objectives**
 
 **1.	Understand Sales Trends:**
+
 o	Analyze the sales data to identify trends over time.
+
 o	Determine peak sales periods.
+
 o	Examine the distribution of sales across different product categories.
 
 **2.	Customer Behavior Analysis:**
+
 o	Investigate customer purchasing patterns.
+
 o	Analyze customer feedback and review scores.
+
 o	Identify factors that influence customer satisfaction and retention.
 
 **3.	Product Performance:**
