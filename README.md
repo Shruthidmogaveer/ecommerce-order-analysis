@@ -2,18 +2,22 @@ The dataset offers a comprehensive look at the sales and customer interactions, 
 that can provide insights into the performance and trends within the e-commerce ecosystem.
 
 **Objectives**
+
 **1.	Understand Sales Trends:**
 o	Analyze the sales data to identify trends over time.
 o	Determine peak sales periods.
 o	Examine the distribution of sales across different product categories.
+
 **2.	Customer Behavior Analysis:**
 o	Investigate customer purchasing patterns.
 o	Analyze customer feedback and review scores.
 o	Identify factors that influence customer satisfaction and retention.
+
 **3.	Product Performance:**
 o	Evaluate the performance of different products.
 o	Identify best-selling and underperforming products.
 o	Analyze the impact of product attributes on sales.
+
 **4.	Operational Metrics:**
 o	Assess logistics and delivery performance.
 o	Examine the order fulfillment process.
